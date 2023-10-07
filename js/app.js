@@ -25,3 +25,32 @@ fetch(jsonUrl)
   .catch(error => {
     console.error('There has been a problem with your fetch operation:', error);
   });
+
+
+ // Import data JSON menggunakan fetch API
+fetch('../json/team.json')
+  .then(response => response.json())
+  .then(data => {
+    // Panggil fungsi untuk menampilkan data ke dalam HTML
+    tampilkanData(data.tim);
+  })
+  .catch(error => console.error('Error:', error));
+
+// Fungsi untuk menampilkan data ke dalam HTML
+function tampilkanData(tim) {
+  const container = document.getElementById('tim-container');
+
+  tim.forEach(anggota => {
+    const anggotaDiv = document.createElement('div');
+    anggotaDiv.classList.add('anggota');
+    anggotaDiv.innerHTML = `
+      <img src="${anggota.foto}" alt="${anggota.nama}">
+      <h2>${anggota.nama}</h2>
+      <p>${anggota.peran}</p>
+      <p>${anggota.deskripsi}</p>
+    `;
+    container.appendChild(anggotaDiv);
+  });
+}
+
+

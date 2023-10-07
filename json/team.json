@@ -1,0 +1,16 @@
+{
+  "tim": [
+    {
+      "nama": "Pengembang Back End",
+      "peran": "Back End Developer",
+      "deskripsi": "Seorang pengembang back end yang berpengalaman dalam membangun infrastruktur server dan database. Terampil dalam pengelolaan data dan logika bisnis di sisi server.",
+      "foto": "backend.jpg"
+    },
+    {
+      "nama": "Pengembang Front End",
+      "peran": "Front End Developer",
+      "deskripsi": "Seorang pengembang front end yang kreatif dan berfokus pada pengalaman pengguna. Ahli dalam pengembangan antarmuka pengguna yang responsif dan menarik.",
+      "foto": "../gambar/WhatsApp Image 2023-10-07 at 17.30.35_5c8b12a6.jpg"
+    }
+  ]
+}

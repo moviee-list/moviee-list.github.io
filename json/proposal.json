@@ -1,0 +1,52 @@
+{
+  "proposal": {
+    "judul": "Perancangan Aplikasi Movie List Berbasis Website",
+    "deskripsi": "Proposal ini merincikan perancangan aplikasi daftar film (movie list) berbasis website yang bertujuan untuk memberikan pengalaman terbaik kepada pengguna dalam mencari, menilai, dan meninjau film-film terbaru. Aplikasi ini dirancang dengan antarmuka yang user-friendly, fitur pencarian canggih, dan integrasi ulasan pengguna untuk meningkatkan interaksi pengguna dengan dunia perfilman.",
+    "tujuan": "Meningkatkan aksesibilitas informasi tentang film, menciptakan platform interaktif bagi pengguna untuk berbagi pengalaman film, serta memfasilitasi diskusi dan rekomendasi film di kalangan komunitas mahasiswa.",
+    "tanggal": "2023-10-20",
+    "penulis": {
+      "nama": "Nama Anda",
+      "nim": "1234567890",
+      "prodi": "Teknik Informatika"
+    },
+    "proyek": {
+      "durasi": "8 bulan",
+      "anggaran": "$15,000"
+    },
+    "fitur": {
+      "pencarian": true,
+      "ulasan": true,
+      "rekomendasi": true,
+      "integrasi_sosial_media": true,
+      "kategori_film": true
+    },
+    "manfaat": [
+      "Memberikan informasi lengkap tentang film-film terbaru dan ulasan pengguna",
+      "Mendorong diskusi dan interaksi antar pengguna terkait film",
+      "Menyediakan rekomendasi film berdasarkan preferensi pengguna",
+      "Meningkatkan pemahaman dan apresiasi terhadap perfilman di kalangan mahasiswa"
+    ],
+    "milestone": [
+      {
+        "nama": "Perancangan UI/UX",
+        "tanggal": "2023-12-01"
+      },
+      {
+        "nama": "Pengembangan Fitur Pencarian",
+        "tanggal": "2024-02-01"
+      },
+      {
+        "nama": "Uji Coba Pengguna",
+        "tanggal": "2024-04-01"
+      },
+      {
+        "nama": "Peluncuran Aplikasi",
+        "tanggal": "2024-06-01"
+      }
+    ],
+    "kontak": {
+      "email": "namaanda@example.com",
+      "telepon": "+123-456-7890"
+    }
+  }
+}

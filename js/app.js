@@ -9,17 +9,13 @@ fetch(jsonUrl)
     return response.json(); // Mengubah response menjadi objek JSON
   })
   .then(data => {
-    // Manipulasi dan tampilkan data di dalam dokumen HTML
-    const judulProposal = data.proposal.judul;
-    const deskripsiProposal = data.proposal.deskripsi;
-    const penulisNama = data.proposal.penulis.nama;
-    const proyekDurasi = data.proposal.proyek.durasi;
-
     // Menampilkan data di dalam elemen HTML dengan id tertentu
-    document.getElementById('judul').textContent = judulProposal;
-    document.getElementById('deskripsi').textContent = deskripsiProposal;
-    document.getElementById('penulis').textContent = `Penulis: ${penulisNama}`;
-    document.getElementById('durasi').textContent = `Durasi Proyek: ${proyekDurasi}`;
+    document.getElementById('judul').textContent = data.judul;
+    document.getElementById('latar-belakang').textContent = data.latarBelakang;
+    document.getElementById('deskripsi').textContent = data.deskripsi;
+    document.getElementById('tujuan').textContent = data.tujuan;
+    document.getElementById('waktu-pengerjaan').textContent = data.waktuPengerjaan;
+    document.getElementById('kesimpulan').textContent = data.kesimpulan;
   })
   .catch(error => {
     console.error('There has been a problem with your fetch operation:', error);

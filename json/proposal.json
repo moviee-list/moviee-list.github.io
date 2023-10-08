@@ -1,52 +1,8 @@
 {
-  "proposal": {
-    "judul": "Perancangan Aplikasi Movie List Berbasis Website",
-    "deskripsi": "Proposal ini merincikan perancangan aplikasi daftar film (movie list) berbasis website yang bertujuan untuk memberikan pengalaman terbaik kepada pengguna dalam mencari, menilai, dan meninjau film-film terbaru. Aplikasi ini dirancang dengan antarmuka yang user-friendly, fitur pencarian canggih, dan integrasi ulasan pengguna untuk meningkatkan interaksi pengguna dengan dunia perfilman.",
-    "tujuan": "Meningkatkan aksesibilitas informasi tentang film, menciptakan platform interaktif bagi pengguna untuk berbagi pengalaman film, serta memfasilitasi diskusi dan rekomendasi film di kalangan komunitas mahasiswa.",
-    "tanggal": "2023-10-20",
-    "penulis": {
-      "nama": "Nama Anda",
-      "nim": "1234567890",
-      "prodi": "Teknik Informatika"
-    },
-    "proyek": {
-      "durasi": "8 bulan",
-      "anggaran": "$15,000"
-    },
-    "fitur": {
-      "pencarian": true,
-      "ulasan": true,
-      "rekomendasi": true,
-      "integrasi_sosial_media": true,
-      "kategori_film": true
-    },
-    "manfaat": [
-      "Memberikan informasi lengkap tentang film-film terbaru dan ulasan pengguna",
-      "Mendorong diskusi dan interaksi antar pengguna terkait film",
-      "Menyediakan rekomendasi film berdasarkan preferensi pengguna",
-      "Meningkatkan pemahaman dan apresiasi terhadap perfilman di kalangan mahasiswa"
-    ],
-    "milestone": [
-      {
-        "nama": "Perancangan UI/UX",
-        "tanggal": "2023-12-01"
-      },
-      {
-        "nama": "Pengembangan Fitur Pencarian",
-        "tanggal": "2024-02-01"
-      },
-      {
-        "nama": "Uji Coba Pengguna",
-        "tanggal": "2024-04-01"
-      },
-      {
-        "nama": "Peluncuran Aplikasi",
-        "tanggal": "2024-06-01"
-      }
-    ],
-    "kontak": {
-      "email": "namaanda@example.com",
-      "telepon": "+123-456-7890"
-    }
-  }
+  "judul": "Aplikasi Movie List",
+  "latarBelakang": "Dalam era digital ini, semakin banyak orang yang menyukai menonton film. Namun, dengan banyaknya pilihan film yang tersedia, seringkali sulit bagi orang untuk melacak film-film yang ingin mereka tonton. Oleh karena itu, kami ingin mengembangkan aplikasi Movie List yang memungkinkan pengguna mencari, menilai, dan menyimpan film-film favorit mereka dengan mudah.",
+  "deskripsi": "Aplikasi Movie List adalah sebuah platform daring yang memungkinkan pengguna untuk menjelajahi daftar film, membaca ulasan, memberikan penilaian, dan menyimpan film-film yang ingin mereka tonton di masa depan. Aplikasi ini juga memberikan rekomendasi berdasarkan preferensi pengguna, menciptakan pengalaman menonton film yang lebih personal.",
+  "tujuan": "Tujuan utama dari proyek ini adalah menyediakan pengalaman pengguna yang intuitif dan efisien dalam mencari, menilai, dan menyimpan film-film. Kami juga bertujuan untuk memperluas pengetahuan pengguna tentang film-film yang ada dan membantu mereka menemukan film-film baru yang mungkin disukai.",
+  "waktuPengerjaan": "Proyek ini direncanakan akan diselesaikan dalam waktu 6 bulan, dimulai dari perancangan konsep hingga pengembangan dan pengujian aplikasi.",
+  "kesimpulan": "Dengan mengembangkan aplikasi Movie List, kami berharap dapat menciptakan komunitas pengguna film yang aktif dan berinteraksi. Kami percaya bahwa aplikasi ini akan memudahkan pengguna dalam menjelajahi dunia film dan menciptakan pengalaman menonton yang lebih menyenangkan dan personal."
 }

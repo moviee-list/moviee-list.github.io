@@ -1,6 +1,5 @@
 // Mendefinisikan URL tempat JSON disimpan
 const jsonUrl = '../json/proposal.json'; // Ganti dengan URL tempat JSON disimpan
-
 // Mengambil data JSON menggunakan fetch() API
 fetch(jsonUrl)
   .then(response => {
@@ -31,26 +30,70 @@ fetch(jsonUrl)
 fetch('../json/team.json')
   .then(response => response.json())
   .then(data => {
-    // Panggil fungsi untuk menampilkan data ke dalam HTML
-    tampilkanData(data.tim);
+    // Menampilkan data JSON di dalam HTML
+    const timContainer = document.getElementById('tim-container');
+    data.tim.forEach(anggota => {
+      const anggotaDiv = document.createElement('div');
+      anggotaDiv.classList.add('anggota');
+
+      const foto = document.createElement('img');
+      foto.src = anggota.foto;
+      foto.alt = anggota.nama;
+      anggotaDiv.appendChild(foto);
+
+      const nama = document.createElement('h2');
+      nama.textContent = anggota.nama;
+      anggotaDiv.appendChild(nama);
+
+      const peran = document.createElement('p');
+      peran.textContent = anggota.peran;
+      anggotaDiv.appendChild(peran);
+
+      const deskripsi = document.createElement('p');
+      deskripsi.textContent = anggota.deskripsi;
+      anggotaDiv.appendChild(deskripsi);
+
+      timContainer.appendChild(anggotaDiv);
+    });
   })
   .catch(error => console.error('Error:', error));
 
-// Fungsi untuk menampilkan data ke dalam HTML
-function tampilkanData(tim) {
-  const container = document.getElementById('tim-container');
 
-  tim.forEach(anggota => {
-    const anggotaDiv = document.createElement('div');
-    anggotaDiv.classList.add('anggota');
-    anggotaDiv.innerHTML = `
-      <img src="${anggota.foto}" alt="${anggota.nama}">
-      <h2>${anggota.nama}</h2>
-      <p>${anggota.peran}</p>
-      <p>${anggota.deskripsi}</p>
+  // Mengambil data dari JSON menggunakan fetch() API
+fetch('../json/contact.json')
+  .then(response => response.json())
+  .then(data => {
+    // Mendapatkan data pengembang front end dan back end
+    const frontEnd = data.frontEnd;
+    const backEnd = data.backEnd;
+
+    // Mendapatkan elemen div tempat data kontak akan ditampilkan
+    const kontakContainer = document.getElementById('kontak-container');
+
+    // Menampilkan data kontak front end dalam elemen div
+    const frontEndDiv = document.createElement('div');
+    frontEndDiv.classList.add('kontak');
+    frontEndDiv.innerHTML = `
+      <h2>Front End Developer</h2>
+      <p><strong>Nama:</strong> ${frontEnd.nama}</p>
+      <p><strong>Email:</strong> ${frontEnd.email}</p>
+      <p><strong>Telepon:</strong> ${frontEnd.telepon}</p>
     `;
-    container.appendChild(anggotaDiv);
+
+    // Menampilkan data kontak back end dalam elemen div
+    const backEndDiv = document.createElement('div');
+    backEndDiv.classList.add('kontak');
+    backEndDiv.innerHTML = `
+      <h2>Back End Developer</h2>
+      <p><strong>Nama:</strong> ${backEnd.nama}</p>
+      <p><strong>Email:</strong> ${backEnd.email}</p>
+      <p><strong>Telepon:</strong> ${backEnd.telepon}</p>
+    `;
+
+    // Menambahkan elemen div kontak ke dalam div kontak-container
+    kontakContainer.appendChild(frontEndDiv);
+    kontakContainer.appendChild(backEndDiv);
+  })
+  .catch(error => {
+    console.error('There has been a problem with your fetch operation:', error);
   });
-}
-
-

@@ -1,12 +1,12 @@
 {
   "frontEnd": {
-    "nama": "John Doe",
-    "email": "john.doe@example.com",
-    "telepon": "123-456-7890"
+    "nama": "Bimo Arga Dewantoro",
+    "email": "bm@example.com",
+    "telepon": "-"
   },
   "backEnd": {
-    "nama": "Jane Smith",
-    "email": "jane.smith@example.com",
-    "telepon": "987-654-3210"
+    "nama": "Adrian Bimo Hernawan Pratama",
+    "email": "ab@example.com",
+    "telepon": "-"
   }
 }

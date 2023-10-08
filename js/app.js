@@ -1,3 +1,5 @@
+/* Fetch Data proposal.json */
+
 // Mendefinisikan URL tempat JSON disimpan
 const jsonUrl = '../json/proposal.json'; // Ganti dengan URL tempat JSON disimpan
 // Mengambil data JSON menggunakan fetch() API
@@ -21,6 +23,7 @@ fetch(jsonUrl)
     console.error('There has been a problem with your fetch operation:', error);
   });
 
+/* Fetch Data team.json */
 
  // Import data JSON menggunakan fetch API
 fetch('../json/team.json')
@@ -54,6 +57,7 @@ fetch('../json/team.json')
   })
   .catch(error => console.error('Error:', error));
 
+/* Fetch Data contact.json */
 
   // Mengambil data dari JSON menggunakan fetch() API
 fetch('../json/contact.json')

@@ -16,6 +16,8 @@ fetch(jsonUrl)
     document.getElementById('latar-belakang').textContent = data.latarBelakang;
     document.getElementById('deskripsi').textContent = data.deskripsi;
     document.getElementById('tujuan').textContent = data.tujuan;
+    document.getElementById('toolsBe').textContent = data.toolsBe;
+    document.getElementById('toolsFe').textContent = data.toolsFe;
     document.getElementById('waktu-pengerjaan').textContent = data.waktuPengerjaan;
     document.getElementById('kesimpulan').textContent = data.kesimpulan;
   })

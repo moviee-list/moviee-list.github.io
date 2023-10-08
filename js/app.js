@@ -74,7 +74,7 @@ fetch('../json/contact.json')
     const frontEndDiv = document.createElement('div');
     frontEndDiv.classList.add('kontak');
     frontEndDiv.innerHTML = `
-      <h2>Front End Developer</h2>
+      <h2>Front End Enthusiast </h2>
       <p><strong>Nama:</strong> ${frontEnd.nama}</p>
       <p><strong>Email:</strong> ${frontEnd.email}</p>
       <p><strong>Telepon:</strong> ${frontEnd.telepon}</p>
@@ -84,7 +84,7 @@ fetch('../json/contact.json')
     const backEndDiv = document.createElement('div');
     backEndDiv.classList.add('kontak');
     backEndDiv.innerHTML = `
-      <h2>Back End Developer</h2>
+      <h2>Back End Enthusiast</h2>
       <p><strong>Nama:</strong> ${backEnd.nama}</p>
       <p><strong>Email:</strong> ${backEnd.email}</p>
       <p><strong>Telepon:</strong> ${backEnd.telepon}</p>

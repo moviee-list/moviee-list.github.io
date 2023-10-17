@@ -1,9 +1,9 @@
 {
-  "judul": "Membangun Aplikasi Movie List Menggunakan Elasticsearch, Nodejs, Vanilla JavaScript ES6.",
+  "judul": "Membangun Aplikasi Movie List Menggunakan Go, Vanilla JavaScript ES6.",
   "latarBelakang": "Dalam era digital ini, semakin banyak orang yang menyukai menonton film. Namun, dengan banyaknya pilihan film yang tersedia, seringkali sulit bagi orang untuk melacak film-film yang ingin mereka tonton. Oleh karena itu, kami ingin mengembangkan aplikasi Movie List yang memungkinkan pengguna mencari, menilai, dan menyimpan film-film favorit mereka dengan mudah.",
   "deskripsi": "Aplikasi Movie List adalah sebuah platform daring yang memungkinkan pengguna untuk menjelajahi daftar film, membaca ulasan, memberikan penilaian, dan menyimpan film-film yang ingin mereka tonton di masa depan. Aplikasi ini juga memberikan rekomendasi berdasarkan preferensi pengguna, menciptakan pengalaman menonton film yang lebih personal.",
   "tujuan": "Tujuan utama dari proyek ini adalah menyediakan pengalaman pengguna yang intuitif dan efisien dalam mencari, menilai, dan menyimpan film-film. Kami juga bertujuan untuk memperluas pengetahuan pengguna tentang film-film yang ada dan membantu mereka menemukan film-film baru yang mungkin disukai.",
-  "toolsBe":"Go-Lang/Node Js, PostgreSQL, Postman.",
+  "toolsBe":"Go-Lang, PostgreSQL, Postman.",
   "toolsFe":"HTML, CSS, Vanilla JavaScript ES6+, Figma.",
   "waktuPengerjaan": "Proyek ini direncanakan akan diselesaikan dalam waktu 3 bulan, dimulai dari perancangan konsep hingga pengembangan dan pengujian aplikasi.",
   "kesimpulan": "Dengan mengembangkan aplikasi Movie List, kami berharap dapat menciptakan komunitas pengguna film yang aktif dan berinteraksi. Kami percaya bahwa aplikasi ini akan memudahkan pengguna dalam menjelajahi dunia film dan menciptakan pengalaman menonton yang lebih menyenangkan dan personal."
